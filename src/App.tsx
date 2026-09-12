@@ -8,7 +8,6 @@ import { Suspense, useState } from 'react'
 import type { Iproduct } from './types/popular'
 import { ToastContainer } from 'react-toastify'
 import Cartitem from './components/cartitem'
-import { DiVim } from 'react-icons/di'
 
 const productFetch=async()=>{
   const response= await fetch('../popular-products.json');
@@ -16,10 +15,10 @@ const productFetch=async()=>{
   return data;
 }
  
-
+const UserPromise=productFetch();
 
 const App = () => {
-     const UserPromise=productFetch();
+     
     const [cart,setcart]=useState<Iproduct[]>([]);
     
     return (
@@ -27,7 +26,7 @@ const App = () => {
             <Navbar cart={cart} setcart={setcart}></Navbar>
     <Banner></Banner>
     <Services></Services>
-    <Suspense fallback={<div>Loading.....</div>}><PopularProducts UserPromise={UserPromise} cart={cart} setcart={setcart}></PopularProducts></Suspense>
+    <PopularProducts UserPromise={UserPromise} cart={cart} setcart={setcart}></PopularProducts>
     <Cartitem cart={cart}></Cartitem>
     <Discount></Discount>
     <Footer></Footer>
