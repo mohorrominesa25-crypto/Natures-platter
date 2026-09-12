@@ -1,0 +1,56 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?w=500",
+    "title": "Fresh Broccoli",
+    "price": 120,
+    "rating": 4.5
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1445282768818-728615cc910a?w=500",
+    "title": "Fresh Carrot",
+    "price": 80,
+    "rating": 4.7
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=500",
+    "title": "Fresh Potato",
+    "price": 60,
+    "rating": 4.6
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1556801712-76c8eb07bbc9?w=500",
+    "title": "Fresh Lettuce",
+    "price": 65,
+    "rating": 4.5
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?w=500",
+    "title": "Fresh Tomato",
+    "price": 90,
+    "rating": 4.8
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?w=500",
+    "title": "Fresh Bell Pepper",
+    "price": 150,
+    "rating": 4.5
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?w=500",
+    "title": "Fresh Cucumber",
+    "price": 75,
+    "rating": 4.3
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=500",
+    "title": "Fresh Spinach",
+    "price": 50,
+    "rating": 4.6
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?w=500",
+    "title": "Fresh Corn",
+    "price": 110,
+    "rating": 4.7
+  }
+]
